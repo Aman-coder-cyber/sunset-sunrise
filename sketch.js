@@ -22,6 +22,9 @@ function setup(){
 }
 
 function draw(){
+    if(hour) {
+    text("TIME"+hour,200, 50)
+    }
     if(bgimg) {
     background(bgimg)
     }
